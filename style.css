@@ -4,7 +4,7 @@
 }
 
 body {
-    background: #dfd8d3;
+    background: #defaf6;
 }
 
 /* Navigation bar */
@@ -14,11 +14,12 @@ body {
     margin: 0 auto;
     padding: 20px;
     border: 2px solid #270647;
+    font-family: 'Assistant', sans-serif;
 }
 
 #nav-div {
     font-size: 15px;
-    color: #dfd8d3;
+    color: #defaf6;
     text-align: right;
 }
 
@@ -36,13 +37,13 @@ body {
 
 #second-nav-div {
     font-size: 15px;
-    color: #dfd8d3;
+    color: #defaf6;
     text-align: left;
 }
 
 #second-nav-div a {
     text-decoration: none;
-    color: #dfd8d3;
+    color: #defaf6;
     opacity: 0.8;
 }
 
@@ -51,18 +52,6 @@ body {
     opacity: 1;
     transition: 1.2s;
 }
-
-/* .main-body #second-nav-dir {
-    text-align: left;
-    font-size: 224px;
-    color: #dfd8d3;
-}
-
-.main-navigation #second-nav-dir a {
-    text-decoration: none;
-    color: #dfd8d3;
-    opacity: 0.8;
-} */
 
 #header {
     text-align: left;
@@ -81,6 +70,7 @@ h3 {
     margin: 0 auto;
     text-align: center;
     padding: 5px 0 0 0;
+    font-family: 'Assistant', sans-serif;
 }
 
 /* Section - about author */
@@ -90,7 +80,7 @@ h3 {
     margin: 0 auto;
     padding: 50px;
     text-align: left;
-    
+    font-family: 'Assistant', sans-serif;  
 }
 
 /* Section of sample photos */
@@ -116,13 +106,14 @@ h3 {
     border: 1px solid black;
     background-color: bisque;
     font-size: 13px;
+    font-family: 'Assistant', sans-serif;
 }
 
 #sample-photos a:hover {
     color: #9c0022;
     opacity: 1;
     transition: 1.2s;
-    background-color: #dfd8d3;
+    background-color: #defaf6;
 }
 
 /* Footer */
@@ -134,7 +125,8 @@ h3 {
     border: 2px solid #270647;
     text-align: center;
     font-size: 20px;
-    color: #dfd8d3;
+    color: #defaf6;
+    font-family: 'Assistant', sans-serif;
 }
 
 .main-footer p {
@@ -144,7 +136,7 @@ h3 {
 .main-footer a {
     color: black;
     text-decoration: none;
-    color: #dfd8d3;
+    color: #defaf6;
 }
 
 .main-footer a:hover {
@@ -154,7 +146,7 @@ h3 {
 }
 
 .separator {
-    color: #dfd8d3;
+    color: #9c0022;
     font-size: 25px;
     padding: 0 3px;
 }
