@@ -15,6 +15,7 @@ body {
     padding: 20px;
     border: 2px solid #270647;
     font-family: 'Assistant', sans-serif;
+    box-shadow: 0 3px 7px;
 }
 
 #nav-div {
@@ -27,6 +28,7 @@ body {
     text-decoration: none;
     color: #dfd8d3;
     opacity: 0.8;
+    transition: 1.2s;
 }
 
 #nav-div a:hover {
@@ -45,6 +47,7 @@ body {
     text-decoration: none;
     color: #defaf6;
     opacity: 0.8;
+    transition: 1.2s;
 }
 
 #second-nav-div a:hover {
@@ -107,6 +110,7 @@ h3 {
     background-color: bisque;
     font-size: 13px;
     font-family: 'Assistant', sans-serif;
+    transition: 1.2s;
 }
 
 #sample-photos a:hover {
@@ -137,6 +141,7 @@ h3 {
     color: black;
     text-decoration: none;
     color: #defaf6;
+    transition: 1.2s;
 }
 
 .main-footer a:hover {
