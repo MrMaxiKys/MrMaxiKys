@@ -26,7 +26,7 @@ body {
 
 #nav-div a {
     text-decoration: none;
-    color: #dfd8d3;
+    color: #defaf6;
     opacity: 0.8;
     transition: 1.2s;
 }
@@ -64,10 +64,6 @@ body {
 
 /* Main page */
 
-.main-article {
-    
-}
-
 h3 {
     font-size: 22px;
     margin: 0 auto;
@@ -95,7 +91,7 @@ h3 {
 
 #sample-photos img {
     border-radius: 10%;
-    max-width: 100%;
+    max-width: 95%;
     max-height: 100vh;
     margin: 40px auto;
 }
