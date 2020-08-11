@@ -13,7 +13,6 @@ body {
     background: #3f126b;
     margin: 0 auto;
     padding: 45px;
-    border: 2px solid #270647;
     font-family: 'Assistant', sans-serif;
     box-shadow: 0 3px 7px;
 }
@@ -84,7 +83,7 @@ h3 {
 
 /* Section of sample photos */
 
-#sample-photos {
+#sample-photos .slide{
     display: grid;
     height: 100%;
 }
@@ -100,7 +99,7 @@ h3 {
 #sample-photos a {
     font-family: 'Assistant', sans-serif;
     text-decoration: none;
-    margin: 10px auto;
+    margin: 10px auto 30px;
     padding: 5px 10px;
     font-size: 15px;
     text-align: center;
@@ -110,7 +109,7 @@ h3 {
     background-color: #4CAF50;
     border: none;
     border-radius: 15px;
-    box-shadow: 0px 7px 25px;
+    box-shadow: 0px 2px 10px;
     transition: 1s;
 }
 
@@ -131,7 +130,7 @@ Jeśli by miało mieć efekt kliknięcia - trzeba transition usunąć
 
 /* Section of nature photos */
 
-#nature-sample-photos {
+#nature-sample-photos .slide {
     display: grid;
     height: 100%;
 }
@@ -147,7 +146,7 @@ Jeśli by miało mieć efekt kliknięcia - trzeba transition usunąć
 #nature-sample-photos a {
     font-family: 'Assistant', sans-serif;
     text-decoration: none;
-    margin: 10px auto;
+    margin: 10px auto 30px;
     padding: 5px 10px;
     font-size: 15px;
     text-align: center;
@@ -157,7 +156,7 @@ Jeśli by miało mieć efekt kliknięcia - trzeba transition usunąć
     background-color: #4CAF50;
     border: none;
     border-radius: 15px;
-    box-shadow: 0px 7px 25px;
+    box-shadow: 0px 2px 10px;
     transition: 1s;
 }
 
@@ -238,5 +237,11 @@ Jeśli by miało mieć efekt kliknięcia - trzeba transition usunąć
 hr {
     color: #9c0022;
     margin: 25px 30px;
+    border-bottom: 1px solid #9c0022;
+}
+
+.hr {
+    color: #9c0022;
+    margin: 100px 250px;
     border-bottom: 1px solid #9c0022;
 }
