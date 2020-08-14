@@ -1,7 +1,8 @@
 var slideUp = {
-    distance: '100%',
+    distance: '15%',
     origin: 'right',
-    delay: 500,
+    delay: 1100,
+    interval: 800,
 };
 
 ScrollReveal().reveal('.slide', slideUp);

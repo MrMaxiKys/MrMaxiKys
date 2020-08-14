@@ -13,7 +13,7 @@ body {
     background: #3f126b;
     margin: 0 auto;
     padding: 45px;
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Raleway', sans-serif;
     box-shadow: 0 3px 7px;
 }
 
@@ -68,7 +68,7 @@ h3 {
     margin: 0 auto;
     text-align: center;
     padding: 5px 0 45px 0;
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .back-to-top {
@@ -77,7 +77,7 @@ h3 {
 }
 
 .back-to-top a {
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 15px;
     padding: 15px;
     text-decoration: none;
@@ -101,7 +101,7 @@ h3 {
     margin: 0 auto;
     padding: 20px 50px;
     text-align: left;
-    font-family: 'Assistant', sans-serif;  
+    font-family: 'Raleway', sans-serif;  
 }
 
 /* Section of sample photos */
@@ -120,7 +120,7 @@ h3 {
 }
 
 #sample-photos a {
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-decoration: none;
     margin: 10px auto 30px;
     padding: 10px 5px;
@@ -163,7 +163,7 @@ Jeśli by miało mieć efekt kliknięcia - trzeba transition usunąć
 }
 
 #nature-sample-photos a {
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-decoration: none;
     margin: 10px auto 30px;
     padding: 10px 5px;
@@ -204,7 +204,7 @@ Jeśli by miało mieć efekt kliknięcia - trzeba transition usunąć
     text-align: center;
     font-size: 20px;
     color: #defaf6;
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .main-footer p {
