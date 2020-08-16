@@ -11,48 +11,9 @@ body {
 
 .main-header {
     background: #3f126b;
-    margin: 0 auto;
     padding: 45px;
     font-family: 'Raleway', sans-serif;
     box-shadow: 0 3px 7px;
-}
-
-#nav-div {
-    font-size: 15px;
-    color: #defaf6;
-    text-align: right;
-}
-
-#nav-div a {
-    text-decoration: none;
-    color: #defaf6;
-    opacity: 0.8;
-    transition: 1.2s;
-}
-
-#nav-div a:hover {
-    color: #9c0022;
-    opacity: 1;
-    transition: 1.2s;
-}
-
-#second-nav-div {
-    font-size: 15px;
-    color: #defaf6;
-    text-align: left;
-}
-
-#second-nav-div a {
-    text-decoration: none;
-    color: #defaf6;
-    opacity: 0.8;
-    transition: 1.2s;
-}
-
-#second-nav-div a:hover {
-    color: #9c0022;
-    opacity: 1;
-    transition: 1.2s;
 }
 
 #header {
@@ -61,15 +22,93 @@ body {
     padding: 30px 0 10px 0;
 }
 
+#nav-div,
+#second-nav-div {
+    font-size: 15px;
+    color: #defaf6;
+    text-align: right;
+}
+
+#second-nav-div {
+    text-align: left;
+}
+
+#nav-div a,
+#second-nav-div a {
+    text-decoration: none;
+    color: #defaf6;
+    opacity: 0.8;
+    transition: 1.2s;
+}
+
+#nav-div a:hover,
+#second-nav-div a:hover {
+    color: #9c0022;
+    opacity: 1;
+    transition: 1.2s;
+}
+
 /* Main page */
 
 h3 {
     font-size: 22px;
-    margin: 0 auto;
     text-align: center;
     padding: 5px 0 45px 0;
     font-family: 'Raleway', sans-serif;
 }
+
+/* Section - about author, nature page */
+
+.first-section #about-me, #why-nature{
+    font-size: 18px;
+    padding: 20px 50px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;  
+}
+
+/* Section of sample photos - for all pages*/
+
+#sample-photos .slide{
+    display: grid;
+    height: 100%;
+}
+
+#sample-photos img {
+    border-radius: 15%;
+    max-width: 95%;
+    max-height: 100vh;
+    margin: 10px auto;
+    box-shadow: 0px 7px 25px #3f126b;
+}
+
+#sample-photos a {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    margin: 10px auto 30px;
+    padding: 10px 5px;
+    font-size: 15px;
+    color: #defaf6;
+    background-color: #3f126b;
+    box-shadow: 0px 2px 10px;
+    transition: 1s;
+}
+
+#sample-photos a:hover {
+    color: #defaf6;
+    background-color: #7741ab;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+/* Section of full resolution page */
+
+.full-resolution-photo img {
+    width: 100%;
+    margin: 50px auto;
+    box-shadow: 0px 7px 25px;
+}
+
+/* Scroll up button */
 
 .back-to-top {
     margin: 50px 0 50px 15px;
@@ -82,117 +121,16 @@ h3 {
     padding: 15px;
     text-decoration: none;
     transition: 1s;
-    color: black;
-    background-color: #4CAF50;
+    color: #defaf6;
+    background-color: #3f126b;
     box-shadow: 0px 2px 10px;
 }
 
 .back-to-top a:hover {
     color: #defaf6;
-    background-color: #3e8e41;
+    background-color: #7741ab;
     border-radius: 50%;
     transition: 1s;
-}
-
-/* Section - about author, nature page */
-
-.first-section #about-me, #why-nature{
-    font-size: 18px;
-    margin: 0 auto;
-    padding: 20px 50px;
-    text-align: left;
-    font-family: 'Raleway', sans-serif;  
-}
-
-/* Section of sample photos */
-
-#sample-photos .slide{
-    display: grid;
-    height: 100%;
-}
-
-#sample-photos img {
-    border-radius: 15%;
-    max-width: 95%;
-    max-height: 100vh;
-    margin: 10px auto;
-    box-shadow: 0px 7px 25px;
-}
-
-#sample-photos a {
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
-    margin: 10px auto 30px;
-    padding: 10px 5px;
-    font-size: 15px;
-    color: black;
-    background-color: #4CAF50;
-    box-shadow: 0px 2px 10px;
-    transition: 1s;
-}
-
-#sample-photos a:hover {
-    color: #defaf6;
-    background-color: #3e8e41;
-    border-radius: 50%;
-    transition: 1s;
-}
-
-/* 
-Jeśli by miało mieć efekt kliknięcia - trzeba transition usunąć
-
-#sample-photos a:active {
-    background-color: #3e8e41;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-} */
-
-/* Section of nature photos */
-
-#nature-sample-photos .slide {
-    display: grid;
-    height: 100%;
-}
-
-#nature-sample-photos img {
-    border-radius: 15%;
-    max-width: 95%;
-    max-height: 100vh;
-    margin: 10px auto;
-    box-shadow: 0px 7px 25px;
-}
-
-#nature-sample-photos a {
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
-    margin: 10px auto 30px;
-    padding: 10px 5px;
-    font-size: 15px;
-    color: black;
-    background-color: #4CAF50;
-    box-shadow: 0px 2px 10px;
-    transition: 1s;
-}
-
-#nature-sample-photos a:hover {
-    color: #defaf6;
-    background-color: #3e8e41;
-    border-radius: 50%;
-    transition: 1s;
-}
-
-/* #nature-sample-photos a:active {
-    background-color: #3e8e41;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-} */
-
-/* Section of full resolution page */
-
-.full-resolution-photo img {
-    width: 100%;
-    margin: 50px auto;
-    box-shadow: 0px 7px 25px;
 }
 
 /* Footer */
@@ -233,8 +171,8 @@ Jeśli by miało mieć efekt kliknięcia - trzeba transition usunąć
 
 /* Footer other pages links nad icons */
 
-#instagram-button, #facebook-icon {
-    margin: 0 auto;
+#instagram-button,
+#facebook-icon {
     opacity: 0.7;
     width: 30px;
     height: 30px;
@@ -243,12 +181,7 @@ Jeśli by miało mieć efekt kliknięcia - trzeba transition usunąć
     padding: 15px 8px 80px 0;
 }
 
-#instagram-button:hover {
-    opacity: 1;
-    transform: scale(1.2);
-    transition: 1s;
-}
-
+#instagram-button:hover,
 #facebook-icon:hover {
     opacity: 1;
     transform: scale(1.2);
