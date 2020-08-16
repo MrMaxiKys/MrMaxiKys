@@ -1,5 +1,5 @@
 var slideUp = {
-    distance: '15%',
+    distance: '2%',
     origin: 'right',
     delay: 800,
 };

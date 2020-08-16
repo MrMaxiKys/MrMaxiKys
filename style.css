@@ -9,12 +9,23 @@ body {
 
 /* Navigation bar */
 
-.main-header {
-    background: #3f126b;
-    padding: 45px;
+.main-header-violet {
+    background: #3f126b !important;
+    padding: 45px 45px 10px 45px;
     font-family: 'Raleway', sans-serif;
     box-shadow: 0 3px 7px;
 }
+
+.main-header {
+    padding: 45px 45px 10px 45px;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 0 3px 7px;
+    background-image: url(/images/nav-bar-img.jpg);
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
 
 #header {
     text-align: left;
@@ -37,8 +48,8 @@ body {
 #second-nav-div a {
     text-decoration: none;
     color: #defaf6;
-    opacity: 0.8;
     transition: 1.2s;
+    opacity: 0.8;
 }
 
 #nav-div a:hover,
@@ -135,7 +146,7 @@ h3 {
 
 /* Footer */
 
-.main-footer {
+.main-footer-violet {
     background: #3f126b;
     margin: 50px auto 0;
     border: 2px solid #270647;
@@ -145,22 +156,37 @@ h3 {
     font-family: 'Raleway', sans-serif;
 }
 
-.main-footer p {
-    opacity: 0.8;
-    padding: 0 0 20px 0;
+.main-footer {
+    margin: 50px auto 0;
+    border: 2px solid #270647;
+    text-align: center;
+    font-size: 20px;
+    color: #defaf6;
+    font-family: 'Raleway', sans-serif;
+    background-image: url(/images/footer-img.jpg);
+    height: 200px;
+    background-position: center;
+    background-size: cover;
 }
 
-.main-footer a {
+.main-footer a,
+.main-footer-violet a {
     color: black;
     text-decoration: none;
     color: #defaf6;
     transition: 1.2s;
 }
 
-.main-footer a:hover {
+.main-footer a:hover,
+.main-footer-violet a:hover {
     color: #9c0022;
     opacity: 1;
     transition: 1.2s;
+}
+
+#footer-text {
+    text-align: left;
+    padding: 0 0 0 10px;
 }
 
 .separator {
@@ -173,7 +199,7 @@ h3 {
 
 #instagram-button,
 #facebook-icon {
-    opacity: 0.7;
+    opacity: 0.9;
     width: 30px;
     height: 30px;
     transition: 1s;
@@ -200,4 +226,11 @@ hr {
     color: #9c0022;
     margin: 100px 18%;
     border-bottom: 1px solid #9c0022;
+}
+
+/* Tree test */
+
+.tree {
+    position: fixed;
+    opacity: 0.4;
 }
