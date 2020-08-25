@@ -49,13 +49,11 @@ body {
     text-decoration: none;
     color: #defaf6;
     transition: 1.2s;
-    opacity: 0.8;
 }
 
 #nav-div a:hover,
 #second-nav-div a:hover {
     color: #9c0022;
-    opacity: 1;
     transition: 1.2s;
 }
 
@@ -148,7 +146,6 @@ h3 {
 
 .main-footer-violet {
     background: #3f126b;
-    margin: 50px auto 0;
     border: 2px solid #270647;
     text-align: center;
     font-size: 20px;
@@ -157,14 +154,13 @@ h3 {
 }
 
 .main-footer {
-    margin: 50px auto 0;
     border: 2px solid #270647;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     color: #defaf6;
     font-family: 'Raleway', sans-serif;
     background-image: url(/images/footer-img.jpg);
-    height: 200px;
+    height: 180px;
     background-position: center;
     background-size: cover;
 }
@@ -180,7 +176,6 @@ h3 {
 .main-footer a:hover,
 .main-footer-violet a:hover {
     color: #9c0022;
-    opacity: 1;
     transition: 1.2s;
 }
 
